@@ -18,7 +18,7 @@ let jokePt3 = messageArr3[randomNum()];
 
 // Creating the full joke with a function
 const fullJoke = () => {
-	return `${jokePt1} ${jokePt2}? ${jokePt3}! Ha ha ha ha!`
+	return `${jokePt1} ${jokePt2}? ${jokePt3}! Ha ha!`
 };
 
 // Logging the function to the console
