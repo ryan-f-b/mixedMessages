@@ -11,13 +11,11 @@ const randomNum = array => {
 	return randomNum;
 };
 
-// Assinging the function to a variable for each array
-let jokePt1 = messageArr1[randomNum(messageArr1)];
-let jokePt2 = messageArr2[randomNum(messageArr2)];
-let jokePt3 = messageArr3[randomNum(messageArr3)];
-
 // Creating the full joke with a function
 const fullJoke = () => {
+	let jokePt1 = messageArr1[randomNum(messageArr1)];
+	let jokePt2 = messageArr2[randomNum(messageArr2)];
+	let jokePt3 = messageArr3[randomNum(messageArr3)];
 	return `${jokePt1} ${jokePt2}? ${jokePt3}! Ha ha!`
 };
 
