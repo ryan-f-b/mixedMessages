@@ -9,15 +9,15 @@ const messageArr3 = ["Steve Backley's neckbeard", "I'm a radio", "Holy mackerel 
 const randomNum = array => {
 	let randomNum = Math.floor(Math.random() * array.length);
 	return randomNum;
-};
+}
 
 // Creating the full joke with a function
 const fullJoke = () => {
 	let jokePt1 = messageArr1[randomNum(messageArr1)];
 	let jokePt2 = messageArr2[randomNum(messageArr2)];
 	let jokePt3 = messageArr3[randomNum(messageArr3)];
-	return `${jokePt1} ${jokePt2}? ${jokePt3}! Ha ha!`
-};
+	return `${jokePt1} ${jokePt2}? ${jokePt3}! Ha ha!`;
+}
 
 // Logging the function to the console
 console.log(fullJoke());
